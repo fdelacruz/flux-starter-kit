@@ -5,6 +5,7 @@ var assign = require('object-assign');
 
 var comments = [];
 
+// Store creation
 var CommentStore = assign({}, EventEmitter.prototype, {
 
 	emitChange: function () {
@@ -24,6 +25,7 @@ var CommentStore = assign({}, EventEmitter.prototype, {
 	}
 });
 
+// Store registration (with the Dispatcher)
 AppDispatcher.register(function(action) {
 
 	switch (action.actionType) {
