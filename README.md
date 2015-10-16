@@ -28,7 +28,4 @@ To build the project, first run this command:
 
 This will make Webpack watch the project and build a new `bundle.js` file on each change. It also starts a Python server.
 
-Visit `localhost:8000` and you should see the text `Great Scott, it works!`
-
-With that setup and running you can continue following along with the guide.
-
+Visit `localhost:8000` and you should see able to enter your comments in the comment-form.
